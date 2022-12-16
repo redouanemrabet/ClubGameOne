@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="70px"
+        android:background="@drawable/custom_edittext"
+        app:cardCornerRadius="25dp"
+android:layout_centerInParent="true"
+        app:cardElevation="20dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="622dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/loginText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CONTACT US"
+                android:textAlignment="center"
+                android:textColor="@color/purple"
+                android:textSize="36sp"
+
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/fullNameContact"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:drawablePadding="8dp"
+                android:hint="Full name"
+                android:paddingLeft="20px"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/subject"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/ic_baseline_subject_24"
+                android:drawablePadding="8dp"
+                android:hint="Subject"
+
+                android:paddingLeft="20px"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/ic_baseline_message_24"
+                android:drawablePadding="8dp"
+                android:hint="Message"
+
+                android:inputType="textMultiLine"
+                android:paddingLeft="20px"
+
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background">
+
+            </EditText>
+
+            <Button
+                android:id="@+id/sendButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/purple"
+                android:text="Send"
+                android:textSize="18sp"
+                app:cornerRadius="20dp">
+
+            </Button>
+
+        </LinearLayout>
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

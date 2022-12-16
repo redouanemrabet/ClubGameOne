@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="800px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerInParent="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="13dp"
+        android:src="@drawable/logoclub1"></ImageView>
+
+    <GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="1400px"
+    android:layout_below="@id/logo"
+        android:id="@+id/grid"
+    android:rowCount="2"
+    android:columnCount="2"
+        android:layout_marginTop="50px"
+        android:layout_marginBottom="60px">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_contactus"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center_vertical|center_horizontal"
+            >
+          <ImageView
+              android:layout_width="200px"
+              android:layout_height="200px"
+              android:src="@drawable/ic_baseline_message_24"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONTACT US"
+                android:textSize="80px"
+                android:textStyle="bold"
+                android:textAlignment="center"></TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        android:id="@+id/card_offers"
+        app:cardElevation="8dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center_vertical|center_horizontal"
+            >
+            <ImageView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:src="@drawable/ic_baseline_post_add_24"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OFFERS"
+                android:textSize="80px"
+                android:textStyle="bold"
+                android:textAlignment="center"></TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_sports"
+            android:layout_width="400px"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:src="@drawable/ic_baseline_sports_basketball_24"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SPORTS"
+                    android:textAlignment="center"
+                    android:textSize="80px"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="400px"
+        android:id="@+id/card_about"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center_vertical|center_horizontal"
+            >
+            <ImageView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:src="@drawable/ic_baseline_person_3_24"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ABOUT US"
+                android:textStyle="bold"
+                android:textSize="80px"
+                android:textAlignment="center"></TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</GridLayout>
+
+    <Button
+android:id="@+id/btn_logout"
+        android:layout_width="221dp"
+        android:layout_height="62dp"
+        android:layout_below="@+id/grid"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="@color/purple"
+        android:text="Log out"
+        app:cardCornerRadius="10dp"></Button>
+</RelativeLayout>

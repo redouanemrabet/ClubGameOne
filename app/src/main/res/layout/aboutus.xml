@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="100px"
+        android:layout_marginLeft="230px">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ABOUT "
+
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="100px"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="US"
+            android:textColor="@color/purple"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="100px"/>
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      android:layout_margin="70px"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Convenience:"
+                android:layout_marginLeft="20px"
+                android:textSize="80px"
+                android:textStyle="bold"
+                android:textColor="@color/purple"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="20px"
+                android:layout_height="wrap_content"
+                android:textSize="60px"
+                android:textStyle="bold"
+                android:text="Our club offers a wide range of sports (foot ball, basket ball, tennis, rugby, hand ball ... ) and is a fitness and peace sanctuary. We provide members an unrivaled experience"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="70px"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Experience"
+                android:layout_marginLeft="20px"
+                android:textSize="80px"
+                android:textStyle="bold"
+                android:textColor="@color/purple"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="20px"
+                android:layout_height="wrap_content"
+                android:textSize="60px"
+                android:textStyle="bold"
+                android:text="Be determined. Get a membership and you’re halfway there ! Our instructors are here to help you reach your goals."/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="70px"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Community"
+                android:layout_marginLeft="20px"
+                android:textSize="80px"
+                android:textStyle="bold"
+                android:textColor="@color/purple"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="20px"
+                android:layout_height="wrap_content"
+                android:textSize="60px"
+                android:textStyle="bold"
+                android:text="At GAME ON Club, you are bound to make new friends to share your passion or discover new classes with."/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="70px"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Variety"
+                android:layout_marginLeft="20px"
+                android:textSize="80px"
+                android:textStyle="bold"
+                android:textColor="@color/purple"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="20px"
+                android:layout_height="wrap_content"
+                android:textSize="60px"
+                android:textStyle="bold"
+                android:text="With more than 80 different and ever-changing classes at GAME ON Club, you will never get bored."/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="70px"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Commitment"
+                android:layout_marginLeft="20px"
+                android:textSize="80px"
+                android:textStyle="bold"
+                android:textColor="@color/purple"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="20px"
+                android:layout_height="wrap_content"
+                android:textSize="60px"
+                android:textStyle="bold"
+                android:text="The first week will define your success. Our CMG Induction Program will keep you motivated to reach your goals and succeed quickly. In the long run, our fitness instructors will challenge you, no plateaus allowed!"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+
+
+</ScrollView>

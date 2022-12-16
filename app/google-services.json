@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "603561359722",
+    "project_id": "signup-login-firebase-a60d5",
+    "storage_bucket": "signup-login-firebase-a60d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603561359722:android:969d3f80d6b7d789914d13",
+        "android_client_info": {
+          "package_name": "com.example.clubsportif"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603561359722-qtn0v95n3k8g8rlo1q0nij9lpsjitgro.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.clubsportif",
+            "certificate_hash": "f5bd5cdca0cb324eb00bfd0d3937dd43c59fed3b"
+          }
+        },
+        {
+          "client_id": "603561359722-b2696i4gjv93kfd17qva5uoimc9cdufo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5X9NUsX5lhW_1SrvxlIcPt9PFU4QWsVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603561359722-b2696i4gjv93kfd17qva5uoimc9cdufo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
