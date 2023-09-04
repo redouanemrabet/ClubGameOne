@@ -33,4 +33,14 @@ Pour le développement de cette application, nous avons utilisé les outils suiv
 - SQLite : Un système de gestion de base de données léger pour stocker et gérer les données de l'application.
 _Note:_ Cette application n'a pas encore implémenté la partie d'administration (utilisateur).
 ## Screenshots
+![about1](https://github.com/redouanemrabet/ClubGameOne/assets/106490380/fd6350fc-5847-4b21-a080-ca1248e6f2f3)
+![accueil](https://github.com/redouanemrabet/ClubGameOne/assets/106490380/3a87bb5e-0032-4252-bcff-bfcdf3105ae1)
+![contact](https://github.com/redouanemrabet/ClubGameOne/assets/106490380/3f91cfea-5a87-4314-975b-a594a9614f44)
+![offre1](https://github.com/redouanemrabet/ClubGameOne/assets/106490380/07b2ea07-2f27-49f4-97eb-82b01919600f)
+![register](https://github.com/redouanemrabet/ClubGameOne/assets/106490380/85d71ed8-9d13-4c1f-bbfb-004783b6cf30)
+![Screenshot_2022-12-16-15-02-19-167_com example clubsportif](https://github.com/redouanemrabet/ClubGameOne/assets/106490380/527877bd-4a67-46c3-bd8a-9a1bfb9e99f9)
+![Screenshot_2022-12-16-15-02-21-875_com example clubsportif](https://github.com/redouanemrabet/ClubGameOne/assets/106490380/89482007-69e0-4ece-b371-64f4575ce685)
+![Screenshot_2022-12-16-15-02-40-379_com example clubsportif](https://github.com/redouanemrabet/ClubGameOne/assets/106490380/4d0a8f21-e60c-462d-85b6-7b0b3d81b9ed)
+![Screenshot_2022-12-16-15-03-06-567_com example clubsportif](https://github.com/redouanemrabet/ClubGameOne/assets/106490380/85dc3d70-29d1-47ad-bc55-239e474f0738)
+![Screenshot_2022-12-16-15-04-45-268_com example clubsportif](https://github.com/redouanemrabet/ClubGameOne/assets/106490380/dacc7286-51e0-45c2-8522-65de1864965d)
 
